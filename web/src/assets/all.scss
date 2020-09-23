@@ -1,0 +1,98 @@
+:root {
+  --color-background: #0F0F0F;
+  --color-text-title: #02b1c8;
+  --color-primary: #02b1c8;
+  --color-light: #fff;
+  --color-text-base: #ffffff;
+  --color-text-gray: #808080;
+  --color-text-dark: #0F0F0F;
+  --color-green: #7ffa67;
+  --color-error: #c50037;
+
+  font-size: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  & {
+    background: #0F0F0F;
+  }
+}
+
+body,
+ul {
+  &::-webkit-scrollbar-track
+  {
+    background-color: #808080;
+  }
+
+  &::-webkit-scrollbar
+  {
+    width: 8px;
+    background-color: #808080;
+  }
+
+  &::-webkit-scrollbar-thumb
+  {
+    background-color: #000000;
+  }
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+  font: 500 1.6rem Nunito;
+  color: var(--color-text-base);
+  border: 0;
+}
+
+input,
+button,
+textarea {
+  color: var(--color-text-dark);
+}
+
+h1,
+h2,
+h3 {
+  font: 700 3rem 'Fjalla One';
+  color: var(--color-text-title);
+}
+
+.container {
+  width: 90vw;
+  max-width: 1000px;
+  margin: auto;
+}
+
+@media (min-width: 700px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+
+#app {
+  & {
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+  }
+}

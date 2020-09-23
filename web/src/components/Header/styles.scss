@@ -1,0 +1,27 @@
+#page-header {
+  & {
+    text-align: center;
+    overflow: hidden;
+    min-height: 320px;
+  }
+  img {
+    height: 20rem;
+    margin: 2rem 0;
+  }
+  .title {
+    font-size: 3rem;
+    text-shadow: 0.02em 0.02em 0.02em #7ffa67,
+                   -0.02em -0.02em 0.02em #7ffa67,
+                   0 0 0.2em #7ffa67;
+    transform: scale(1.5);
+    letter-spacing: 2px;
+    text-align: center;
+    max-width: 220px;
+    margin: auto;
+  }
+  p {
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
