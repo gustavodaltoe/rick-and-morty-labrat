@@ -47,6 +47,12 @@ Nós da Squad LabRat queremos ver o seu potencial por meio deste desafio, essa �
 
 ## Application
 
+**Aplicação rodando online com Heroku para o back-end e Vercel para o front-end:**
+
+[Clique aqui](https://rick-and-morty-labrat.vercel.app/) para ver o Front-end online.
+
+[Clique aqui](https://rick-and-morty-labrat.herokuapp.com/humans) para ver o endpoint /humans do Back-end online.
+
 <img src="./assets/application-gif.gif" alt="rick and morty application gif">
 
 ## Instruções:
