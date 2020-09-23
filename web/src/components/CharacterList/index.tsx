@@ -54,7 +54,7 @@ function CharacterList() {
           <strong>Something went wrong</strong>
           <p>Failed to get data from server, try again later.</p>
         </div>) : 
-      <h1>Humans from Earth C137</h1>}
+      <h1>Humans from Earth (C-137)</h1>}
       {humans.map((human: Character) => (
         <CharacterItem character={human} key={human.name} />
       ))}
